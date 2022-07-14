@@ -1,4 +1,4 @@
-# V2Ray for Heroku
+# V2 for Heroku
 This image is based on Alpine, making it as light as possible.
 
 ## One-Click button
