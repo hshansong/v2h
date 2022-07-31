@@ -1,6 +1,6 @@
 {
-  "name": "Build your own V2ray",
-  "description": "Deploy V2ray to Heroku.",
+  "name": "Build your own app",
+  "description": "Deploy to Heroku.",
   "keywords": ["V2ray"],
   "env": {
     "UUID": {
@@ -9,22 +9,22 @@
       "required": true
      },
     "V_PATH": {
-      "description": "You need to set your own V2Ray path",
+      "description": "You need to set your own path",
       "value": "v_path",
       "required": true
      },
     "S_PATH": {
-      "description": "You need to set your own Shadowsocks path",
+      "description": "You need to set your own path",
       "value": "s_path",
       "required": true
      },
     "PASSWORD": {
-      "description": "You need to set your own Shadowsocks password",
+      "description": "You need to set your own password",
       "value": "herosocks",
       "required": true
      }
   },
-  "website": "https://github.com/WinstonH/v2ray-heroku",
-  "repository": "https://github.com/WinstonH/v2ray-heroku",
+  "website": "https://github.com/hshansong/v2h",
+  "repository": "https://github.com/hshansong/v2h",
   "stack": "container"
 }
